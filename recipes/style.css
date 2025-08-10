@@ -1,5 +1,5 @@
 body {
-    background-image: url(../assets/insung-yoon-hQ214dKDDKM-unsplash.jpg);
+    background-image: url(../assets/thumb16.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -20,24 +20,27 @@ body {
     align-items: center;
 }
 img {
-    width: 300px;
-    height: 300px;
+    background-size: cover;
+    width: 240px;
+    height: 240px;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: black solid 3px;
+    border: black solid 5px;
     border-radius: 10px;
     margin-bottom: 10px;
+    box-shadow: black 3px 5px 40px;;
 }
 h1 {
-    width: 400px;
-    height: 70px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+    grid-row: 1;
+    justify-self: center;
+    border: rgb(208, 208, 176) solid 3px;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    color: pink;
+    text-shadow: 2px 1px 1px black;
 }
 #content {
     background-color: rgba(240, 255, 255, 0.435);
@@ -65,23 +68,28 @@ ul {
 h2{
     grid-row: 1;
     justify-self: center;
-    border: black solid 3px;
+    border: rgb(208, 208, 176) solid 3px;
     padding: 10px;
+    color: pink
 
 }
 #recipelist {
     grid-row: 1;
     justify-self: start;
-    border: black solid 3px;
+    border: rgb(208, 208, 176) solid 3px;
     padding: 10px;
 }
 a {
-    width: 300px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-column: 1;
+    text-align: center;
+    color: pink;
+    text-shadow: 2px 1px 1px black;
+    align-content: center;
+}
+a:hover {
+    font-size: 20px;
     color: white;
+    justify-content: center;
 }
 #homelink {
     width: 200px;
